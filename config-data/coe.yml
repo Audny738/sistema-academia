@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:${SERVER_PORT:0}}
+  port: ${random.value}
   servlet:
     context-path: /coe
 spring:
