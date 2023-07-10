@@ -1,5 +1,5 @@
 server:
-  port: ${random.int(5100, 5200)}
+  port: ${random.int(5100,5200)}
   servlet:
     context-path: /sie-api
 
