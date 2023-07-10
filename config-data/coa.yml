@@ -1,5 +1,5 @@
 server:
-  port: ${ramdom.int(7000,7100)}
+  port: ${random.int(7000,7100)}
   servlet:
     context-path: /coa-api
 spring:
